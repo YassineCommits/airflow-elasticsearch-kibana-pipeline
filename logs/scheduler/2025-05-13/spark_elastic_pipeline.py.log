@@ -1,0 +1,70 @@
+[2025-05-13T13:12:09.391+0000] {processor.py:157} INFO - Started process (PID=183) to work on /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:12:09.392+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_elastic_pipeline.py for tasks to queue
+[2025-05-13T13:12:09.394+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:12:09.393+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:12:10.011+0000] {processor.py:839} INFO - DAG(s) dict_keys(['POC_orange']) retrieved from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:12:10.166+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:12:10.166+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-13T13:12:10.247+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:12:10.246+0000] {dag.py:3722} INFO - Setting next_dagrun for POC_orange to 2025-05-12T00:00:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-13T13:12:10.313+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_elastic_pipeline.py took 0.929 seconds
+[2025-05-13T13:12:40.817+0000] {processor.py:157} INFO - Started process (PID=364) to work on /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:12:40.818+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_elastic_pipeline.py for tasks to queue
+[2025-05-13T13:12:40.819+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:12:40.819+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:12:40.948+0000] {processor.py:839} INFO - DAG(s) dict_keys(['POC_orange']) retrieved from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:12:40.987+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:12:40.986+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-13T13:12:41.022+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:12:41.022+0000] {dag.py:3722} INFO - Setting next_dagrun for POC_orange to 2025-05-12T00:00:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-13T13:12:41.056+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_elastic_pipeline.py took 0.243 seconds
+[2025-05-13T13:13:11.624+0000] {processor.py:157} INFO - Started process (PID=546) to work on /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:13:11.630+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_elastic_pipeline.py for tasks to queue
+[2025-05-13T13:13:11.638+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:13:11.635+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:13:12.199+0000] {processor.py:839} INFO - DAG(s) dict_keys(['POC_orange']) retrieved from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:13:12.389+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:13:12.388+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-13T13:13:12.557+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:13:12.556+0000] {dag.py:3722} INFO - Setting next_dagrun for POC_orange to 2025-05-12T00:00:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-13T13:13:13.451+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_elastic_pipeline.py took 1.849 seconds
+[2025-05-13T13:13:43.937+0000] {processor.py:157} INFO - Started process (PID=639) to work on /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:13:43.945+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_elastic_pipeline.py for tasks to queue
+[2025-05-13T13:13:43.950+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:13:43.948+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:13:44.789+0000] {processor.py:839} INFO - DAG(s) dict_keys(['POC_orange']) retrieved from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:13:44.973+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:13:44.972+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-13T13:13:45.146+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:13:45.145+0000] {dag.py:3722} INFO - Setting next_dagrun for POC_orange to 2025-05-12T00:00:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-13T13:13:45.265+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_elastic_pipeline.py took 1.351 seconds
+[2025-05-13T13:14:16.039+0000] {processor.py:157} INFO - Started process (PID=663) to work on /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:14:16.051+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_elastic_pipeline.py for tasks to queue
+[2025-05-13T13:14:16.064+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:14:16.059+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:14:17.031+0000] {processor.py:839} INFO - DAG(s) dict_keys(['POC_orange']) retrieved from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:14:17.245+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:14:17.244+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-13T13:14:17.531+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:14:17.529+0000] {dag.py:3722} INFO - Setting next_dagrun for POC_orange to 2025-05-12T00:00:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-13T13:14:17.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_elastic_pipeline.py took 1.645 seconds
+[2025-05-13T13:14:47.843+0000] {processor.py:157} INFO - Started process (PID=690) to work on /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:14:47.845+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_elastic_pipeline.py for tasks to queue
+[2025-05-13T13:14:47.847+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:14:47.847+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:14:48.125+0000] {processor.py:839} INFO - DAG(s) dict_keys(['POC_orange']) retrieved from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:14:48.210+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:14:48.210+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-13T13:14:48.294+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:14:48.293+0000] {dag.py:3722} INFO - Setting next_dagrun for POC_orange to 2025-05-12T00:00:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-13T13:14:48.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_elastic_pipeline.py took 0.523 seconds
+[2025-05-13T13:15:18.729+0000] {processor.py:157} INFO - Started process (PID=766) to work on /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:15:18.733+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_elastic_pipeline.py for tasks to queue
+[2025-05-13T13:15:18.737+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:15:18.735+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:15:19.240+0000] {processor.py:839} INFO - DAG(s) dict_keys(['POC_orange']) retrieved from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:15:19.390+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:15:19.389+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-13T13:15:19.569+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:15:19.568+0000] {dag.py:3722} INFO - Setting next_dagrun for POC_orange to 2025-05-12T00:00:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-13T13:15:20.195+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_elastic_pipeline.py took 1.482 seconds
+[2025-05-13T13:15:50.675+0000] {processor.py:157} INFO - Started process (PID=784) to work on /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:15:50.681+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_elastic_pipeline.py for tasks to queue
+[2025-05-13T13:15:50.688+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:15:50.685+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:15:51.720+0000] {processor.py:839} INFO - DAG(s) dict_keys(['POC_orange']) retrieved from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:15:51.899+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:15:51.898+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-13T13:15:52.400+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:15:52.399+0000] {dag.py:3722} INFO - Setting next_dagrun for POC_orange to 2025-05-12T00:00:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-13T13:15:52.516+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_elastic_pipeline.py took 2.039 seconds
+[2025-05-13T13:16:23.221+0000] {processor.py:157} INFO - Started process (PID=866) to work on /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:16:23.228+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_elastic_pipeline.py for tasks to queue
+[2025-05-13T13:16:23.236+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:16:23.234+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:16:23.983+0000] {processor.py:839} INFO - DAG(s) dict_keys(['POC_orange']) retrieved from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:16:24.092+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:16:24.092+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-13T13:16:24.184+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:16:24.184+0000] {dag.py:3722} INFO - Setting next_dagrun for POC_orange to 2025-05-12T00:00:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-13T13:16:24.268+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_elastic_pipeline.py took 1.069 seconds
+[2025-05-13T13:16:54.725+0000] {processor.py:157} INFO - Started process (PID=882) to work on /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:16:54.727+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/spark_elastic_pipeline.py for tasks to queue
+[2025-05-13T13:16:54.729+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:16:54.729+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:16:54.974+0000] {processor.py:839} INFO - DAG(s) dict_keys(['POC_orange']) retrieved from /opt/airflow/dags/spark_elastic_pipeline.py
+[2025-05-13T13:16:55.032+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:16:55.032+0000] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-05-13T13:16:55.090+0000] {logging_mixin.py:154} INFO - [2025-05-13T13:16:55.089+0000] {dag.py:3722} INFO - Setting next_dagrun for POC_orange to 2025-05-12T00:00:00+00:00, run_after=2025-05-13T00:00:00+00:00
+[2025-05-13T13:16:55.163+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/spark_elastic_pipeline.py took 0.449 seconds

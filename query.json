@@ -1,0 +1,48 @@
+{
+  "size": 0,
+  "query": {
+    "range": {
+      "TimeStamp": {
+        "gte": 1744896000000,
+        "lt": 1744982400000
+      }
+    }
+  },
+  "aggs": {
+    "location_stats": {
+      "terms": {
+        "script": {
+          "source": "def locations = ['SO1GG2', 'TN1GG2', 'TN2GG2', 'TN2VEPG1']; for (loc in locations) { if (!doc['gxCcasInitSuccess@' + loc].empty) { return loc; } } return 'Other';",
+          "lang": "painless"
+        },
+        "size": 10
+      },
+      "aggs": {
+        "init_success_rate": {
+          "bucket_script": {
+            "buckets_path": {
+              "success": "gxCcasInitSuccess",
+              "total": "total_inits"
+            },
+            "script": "params.total > 0 ? (params.success / params.total) * 100 : 0"
+          }
+        },
+        "gxCcasInitSuccess": {
+          "sum": {
+            "script": {
+              // Ensure this script source ends with "return total;"
+              "source": "def locations = ['SO1GG2', 'TN1GG2', 'TN2GG2', 'TN2VEPG1']; long total = 0; for (loc in locations) { if (!doc['gxCcasInitSuccess@' + loc].empty) { total += doc['gxCcasInitSuccess@' + loc].value; } } return total;"
+            }
+          }
+        },
+        "total_inits": {
+          "sum": {
+            "script": {
+              "source": "def locations = ['SO1GG2', 'TN1GG2', 'TN2GG2', 'TN2VEPG1']; long total = 0; for (loc in locations) { if (!doc['gxCcasInitSuccess@' + loc].empty) { total += doc['gxCcasInitSuccess@' + loc].value; } if (!doc['gxCcasTerminateSuccess@' + loc].empty) { total += doc['gxCcasTerminateSuccess@' + loc].value; } } return total;"
+            }
+          }
+        }
+      }
+    }
+  }
+}
